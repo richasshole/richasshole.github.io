@@ -1,0 +1,103 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 50vh;
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS;
+	background: #000;
+}
+
+.wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 77%;
+}
+
+.wrp {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 130%;
+	position: absolute;
+	top: 367px;
+}
+
+.iBlock:hover {
+	background: #e9204f;
+}
+
+.iBlock:hover .undBlock {
+	border-color: #fff;
+}
+
+.iBlock {
+	width: 25%;
+	height: 600px;
+	background: #1b1b1b;
+	padding: 30px;
+	box-sizing: border-box;
+	transition: .4s;
+	margin: 10px;
+}
+
+.undBlock {
+	height: 0;
+	width: 35px;
+	border-top: 2px solid #e9204f;
+	margin-top: 10px;
+	transition: .4s;
+}
+
+.informBlock {
+	width: 27%;
+	height: 315px;
+	background: #1b1b1b;
+	padding: 30px;
+	box-sizing: border-box;
+	transition: .4s;
+	margin: 10px;
+}
+
+.mainText {
+	color: #fff;
+	margin: 55px 0 0 0;
+	font-size: 21px;
+}
+
+.underlineBlock {
+	height: 0;
+	width: 35px;
+	border-top: 2px solid #e9204f;
+	margin-top: 10px;
+	transition: .4s;
+}
+
+.secondText {
+	color: #fff;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.informBlock:hover {
+	background: #e9204f;
+}
+
+.informBlock:hover .underlineBlock {
+	border-color: #fff;
+}
+
+.supText {
+	color: #fff;
+	margin: 15px 0 0 -20px;
+	font-size: 17px;
+	line-height: 125%;
+}
+
+.txt {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 15px;
+}
